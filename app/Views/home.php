@@ -61,10 +61,5 @@
             <!-- Geen directe links hier, omdat detailroutes een id vereisen -->
         </div>
     </div>
-
-    <footer>
-        <em>MVC + PDO + Stored Procedures — werkt via <code>index.php?route=...</code> op WAMP.</em>
-    </footer>
-
 </body>
 </html>
