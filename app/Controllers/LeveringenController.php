@@ -2,6 +2,7 @@
 require_once __DIR__ . '/../Models/Leveringen.php';
 require_once __DIR__ . '/../Models/Database.php';
 
+// Controller voor leveringen van een specifiek product
 class LeveringenController
 {
     public function index()

@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
-<title>🧾 Overzicht Allergenen per product</title>
+<title> Overzicht Allergenen per product</title>
 <style>
  body{font-family:Arial;margin:40px}
  table{border-collapse:collapse;width:95%}
@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<h1>🧾 Overzicht Allergenen</h1>
+<h1> Overzicht Allergenen</h1>
 
 <div class="head">
   <strong>Product:</strong> <?= htmlspecialchars($productNaam ?: '-') ?> &nbsp; | &nbsp;
@@ -55,7 +55,7 @@
 <p class="muted">Rijen gesorteerd op <strong>Naam</strong> oplopend.</p>
 
 <p style="margin-top:20px;">
-  <a href="<?= url('magazijn/overzicht') ?>">⬅️ Terug naar overzicht</a>
+  <a href="<?= url('magazijn/overzicht') ?>">⬅ Terug naar overzicht</a>
 </p>
 
 </body>

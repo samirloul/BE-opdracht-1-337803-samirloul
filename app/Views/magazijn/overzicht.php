@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>📦 Overzicht Magazijn Jamin</title>
+    <title> Overzicht Magazijn Jamin</title>
     <style>
         :root{
             --bg:#fafafa; --fg:#333; --muted:#666; --border:#cfcfcf; --head:#f5f7fb; --link:#0b57d0;
@@ -28,7 +28,7 @@
 </head>
 <body>
 
-    <h1>📦 Overzicht Magazijn Jamin</h1>
+    <h1> Overzicht Magazijn Jamin</h1>
     <div class="legend">
         Gesorteerd op <strong>Barcode</strong> (oplopend). &nbsp;Legenda: ❌ = Allergenen-info, ❓ = Leverantie-info.
     </div>
@@ -79,7 +79,7 @@
     </table>
 
     <div class="footer">
-        <a class="link" href="<?= url() ?>">⬅️ Terug naar home</a>
+        <a class="link" href="<?= url() ?>"> Terug naar home</a>
     </div>
 
 </body>

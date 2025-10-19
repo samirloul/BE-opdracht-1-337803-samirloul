@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
-<title>🚚 Levering Informatie</title>
+<title> Levering Informatie</title>
 <style>
  body{font-family:Arial;margin:40px}
  table{border-collapse:collapse;width:95%}
@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<h1>🚚 Levering Informatie</h1>
+<h1> Levering Informatie</h1>
 
 <div class="box">
   <div><strong>Product:</strong> <?= htmlspecialchars($productNaam ?: '-') ?></div>
@@ -91,7 +91,7 @@
 <p class="muted">Gesorteerd op <strong>Datum laatste levering</strong> oplopend.</p>
 
 <p style="margin-top:20px;">
-  <a href="<?= url('magazijn/overzicht') ?>">⬅️ Terug naar overzicht</a>
+  <a href="<?= url('magazijn/overzicht') ?>">⬅ Terug naar overzicht</a>
 </p>
 
 </body>

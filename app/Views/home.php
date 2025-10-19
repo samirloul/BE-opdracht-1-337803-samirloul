@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>🏠 Home - Jamin Magazijn</title>
+    <title> Home - Jamin Magazijn</title>
     <style>
         :root{
             --bg:#fafafa; --fg:#333; --muted:#666; --border:#cfcfcf; --link:#0b57d0;
@@ -45,18 +45,18 @@
 </head>
 <body>
 
-    <h1>🍬 Welkom bij het Jamin Magazijn</h1>
+    <h1> Welkom bij het Jamin Magazijn</h1>
     <p>Kies hieronder het overzicht uit de opdracht. (De detail-schermen open je via de icoontjes in het overzicht.)</p>
 
     <div class="cards">
         <div class="card">
-            <h2>📦 Overzicht Magazijn Jamin</h2>
+            <h2> Overzicht Magazijn Jamin</h2>
             <p>Toont alle producten, verpakkings-eenheid en aantallen. Gesorteerd volgens de opdracht.</p>
             <a class="btn" href="<?= url('magazijn/overzicht') ?>">Open overzicht</a>
         </div>
 
         <div class="card">
-            <h2>🧾 Allergenen & 🚚 Leveringen</h2>
+            <h2> Allergenen &  Leveringen</h2>
             <p>Deze schermen open je via de icoontjes (❌ / ❓) bij een product in het magazijnoverzicht.</p>
             <!-- Geen directe links hier, omdat detailroutes een id vereisen -->
         </div>
